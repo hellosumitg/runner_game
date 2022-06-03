@@ -21,15 +21,15 @@ $ npm install
 ```
 
 ### 3. Deploy NFT collection to Polygon Mumbai testnet
-- Setup your env file with both private key and mumbai RPC 
+- Setup your env file with both private key and rinkeby RPC 
 ```
-$ $ npx hardhat run scripts/deployNFTCollection.js --network mumbai
+$ $ npx hardhat run scripts/deployNFTCollection.js --network rinkeby
 ```
 
 ### 4. Deploy Run token to Polygon Mumbai testnet
-- Setup your env file with both private key and mumbai RPC 
+- Setup your env file with both private key and rinkeby RPC 
 ```
-$ $ npx hardhat run scripts/deployRunToken.js --network mumbai
+$ $ npx hardhat run scripts/deployRunToken.js --network rinkeby
 ```
 
 ### 5. Provide the smart contract addresses in blockchain.js file
